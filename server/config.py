@@ -12,7 +12,6 @@ class Config:
         "DATABASE_URL", f"sqlite:///{os.path.join(BASE_DIR, 'app.db')}"
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    JSON_SORT_KEYS = False
 
     # The browser cannot read the cookie from JavaScript, and it is not sent
     # on cross-site requests.
